@@ -1,60 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Día de las Madres</title>
-    <style>
-        body {
-            background: url(./mama.jpg) no-repeat fixed center center;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            padding: 20px;
-            text-align: center;
-        }
-        .card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #333;
-        }
-        .signature {
-            margin-top: 15px;
-            font-size: 14px;
-            color: #777;
-        }
-    </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link src = "stylesheets" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <img src="mimama.jpg" alt="Flor para Mamá">
-        <div class="message">
-            <p>Querida Mamá,</p>
-            <p>Gracias por todo lo que haces por mí.
-                Todo los dias me esfuezo para que puedas estar Feliz
-                y digas que no fueron 9 meses en esa barriga por nada...
-            </p>
-            <p>Feliz Día de las Madres.</p>
-        </div>
-        <div class="signature">
-            <p>Con cariño,</p>
-            <p>David</p>
-        </div>
+  <style>
+  body {
+    background-image: url(Black.jpeg);
+    background-size: cover;
+  }
+  
+  .tamanho-texto {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    
+  }
+  
+  .tamanho {
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 15%;
+  }
+  .altura-error{
+    width: 90%;
+    margin-left: 20px;
+    height: 300px;
+    border-radius: 15%;
+  }
+  </style>
+  <div>
+  <h1 class="tamanho-texto">
+    TOP 6 <strong><i>MEJORES</i></strong> GTS
+  </h1>
+  <img src="Ferrari.jpg" alt="Ferrari GT3" class="tamanho">
+  <p class="tamanho-texto">N°1 <strong>Ferrari</strong> 296 GT3</p>
     </div>
+  <div>
+    <img src="Porsche.jpeg" alt="Porsche GT3" class="tamanho">
+    <p class="tamanho-texto">N°2 <strong>Porsche</strong> GT3</p>
+  </div>
+  <div>
+    <img src="BMW.jpeg" alt="BMW GT3" class="altura-error">
+    <p class="tamanho-texto">N°3 <strong>BMW</strong> GT3</p>
+  </div>
 </body>
 </html>
